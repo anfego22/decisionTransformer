@@ -94,7 +94,7 @@ N_EMBD = 64
 BATCH_SIZE = 16
 N_HEADS = 4
 N_BLOCKS = 4
-LEARNING_RATE = 1e-04
+LEARNING_RATE = 1e-03
 dropout_p = 0
 
 model = Transformer(vocab_size, CONTEXT, N_EMBD, N_HEADS, N_BLOCKS, dropout_p)
